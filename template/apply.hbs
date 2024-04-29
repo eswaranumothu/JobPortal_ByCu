@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./css/apply.css" />
+</head>
+<body>
+      <div class="main-job-application-form">			
+            <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="name" placeholder="Enter name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="email" placeholder="Enter email" required>
+            <label for="tel">Phone Number</label>
+            <input type="tel" name="tel" class="tel" maxlength="10" id="tel" placeholder="Enter phone number" required>
+            <label for="position">Position</label>
+            <select name="position" class="position" id="position" placeholder="" required>
+            <option value="">Select a position you are applying for</option>
+            <option value="">Software Developer</option>
+            <option value="">UX Designer</option>
+            <option value="">SEO Expert</option>
+            <option value="">Testing Expert</option>
+            </select>
+            <label for="Email">How many years of experience do you have?</label><br>
+            <input type="radio" id="exp1" name="experience" value="1">
+            <label for="exp1">1</label><br>
+            <input type="radio" id="exp2" name="experience" value="2">
+            <label for="exp2">2</label><br>
+            <input type="radio" id="exp3" name="experience" value="3">
+            <label for="exp3">3</label><br>
+            <input type="radio" id="exp4" name="experience" value="4">
+            <label for="exp4">4</label><br>
+            <input type="radio" id="expmore4" name="experience" value="more4">
+            <label for="expmore4">More than 4</label><br><br>
+            <label for="cover">Cover Letter</label>
+            <textarea name="cover" class="cover" id="cover" placeholder="Please tell us why you're a good fit for this position and why you want to work with us" rows="5" required></textarea>
+            <label for="file">Resume</label><br>		
+            <input type="file" name="file" class="file" required><br>
+            <small>Please upload your resume in PDF format</small><br><br>
+            <input name="submit" type="submit" value="Submit">
+            </form>
+            </div>
+</body>
+</html>
